@@ -21,7 +21,7 @@ import streamlit as st
 
 # ---------- sidebar config ----------
 
-st.set_page_config(page_title="D&D Doc Digger", page_icon="🎲", layout="wide")
+st.set_page_config(page_title="TomeKeeper", page_icon="🎲", layout="wide")
 
 with st.sidebar:
     st.header("Settings")
@@ -50,7 +50,7 @@ if "messages" not in st.session_state:
 
 # ---------- header ----------
 
-st.title("🎲 D&D Doc Digger")
+st.title("🎲 TomeKeeper")
 st.caption("Ask questions across your tabletop library. Local LLM, your data, your machine.")
 
 

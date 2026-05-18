@@ -69,7 +69,7 @@ log = logging.getLogger(__name__)
 
 # Each leg returns this many candidates BEFORE reranking. The reranker
 # then trims to settings.top_k. Larger = better recall, slower.
-CANDIDATES_PER_LEG = 20
+CANDIDATES_PER_LEG = 30
 
 RERANKER_MODEL = "BAAI/bge-reranker-base"
 

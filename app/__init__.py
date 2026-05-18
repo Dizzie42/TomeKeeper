@@ -1,1 +1,1 @@
-"""D&D RAG application package."""
+""" TomeKeeper application package."""

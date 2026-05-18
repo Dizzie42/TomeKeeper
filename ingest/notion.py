@@ -2,7 +2,7 @@
 
 Setup (one-time):
   1. Visit https://www.notion.so/my-integrations
-  2. Click "+ New integration", give it a name like "D&D RAG",
+  2. Click "+ New integration", give it a name like "TomeKeeper", and under "Capabilities" enable "Read content".
      pick your workspace, "Internal" type.
   3. Copy the "Internal Integration Token" (starts with `secret_` or `ntn_`).
   4. Put it in your .env file:    NOTION_TOKEN=ntn_xxx...
